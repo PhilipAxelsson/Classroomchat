@@ -17,8 +17,7 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 
 const PLACES_URL = 'https://api.kth.se/api/places/v2/places'
 const placesKey = process.env.KTH_KEY
-const GOOGLE_MAPS_APIKEY =
-  'AIzaSyDJXW7298OxzGsPqEOqOHOtgyPlIUQtN2Y&libraries=directions'
+
 
 export default class MapScreen extends React.Component {
   static navigationOptions = {
